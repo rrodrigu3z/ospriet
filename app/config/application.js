@@ -54,18 +54,18 @@ module.exports = {
 
   /* Site/UI configuration */
   , site: {
-      raw_url:          'http://y2b.eventradar.com.ve'
-    , display_url:      'y2b.eventradar.com.ve'
+      raw_url:          'http://y2bve.eventradar.com.ve'
+    , display_url:      'y2bve.eventradar.com.ve'
     , google_analytics: ''
   }
 
   , event: {
       title:        'VenezuelaY2B'
-    , description:  'Debating whether research or intuition is a better approach to design should be a communal discussion.'
-    , instructions: '<strong>Submit a question or comment by posting a tweet to <a href="https://twitter.com/intent/user?screen_name=dftg" title="Design from the Gut on Twitter">@dftg</a> via the button below. Review the submissions and favorite the ones you\'d like to see answered</strong>. The moderator will choose from the top picks.'
-    , time:         'Friday, 3/9, 3:30p'
-    , location:     'Ballroom BC &bull; ACC'
-    , details_url:  'http://schedule.sxsw.com/2012/events/event_IAP11592'
+    , description:  'Debatiendo sobre los jóvenes y el emprendimiento en Venezuela.'
+    , instructions: '<strong>Postula tu pregunta escribiendo un tweet a <a href="https://twitter.com/intent/user?screen_name=eventradardev" title="Event Radar Dev Team">@eventradardev</a> con el botón de abajo. Revisa las propuestas y marca como favoritas las que quieras que respondan</strong>. El moderador seleccionará de las mas votadas.'
+    , time:         'Viernes, 29/6, 11:00am'
+    , location:     'Universidad Metropolitana, Caracas.'
+    , details_url:  'http://www.eventradar.com.ve/events/venezuelaY2B'
   }
 
   , participants: [
@@ -73,36 +73,15 @@ module.exports = {
         name:     'Ricardo Rodríguez'
       , title:    'Co-Fundador, Event Radar'
       , twitter:  'rrodrigu3z'
-      , img_url:  'http://a0.twimg.com/profile_images/2167235671/Captura_de_pantalla_2012-04-18_a_la_s__08.51.57_normal.png'
+      , img_url:  'ricardo.png'
       , role:     'Moderador'
     }
     , {
-        name:     'Bill Couch'
-      , title:    'Software engineer, Twitter'
-      , twitter:  'couch'
-      , img_url:  'couch.gif'
-      , role:     'Panelist'
-    }
-    , {
-        name:     'Naz Hamid'
-      , title:    'Principal, Weightshift'
-      , twitter:  'weightshift'
-      , img_url:  'hamid.gif'
-      , role:     'Panelist'
-    }
-    , {
-        name:     'Laurel Hechanova'
-      , title:    'Designer, Illustrator, Apocalypse OK'
-      , twitter:  'hechanova'
-      , img_url:  'hechanova.gif'
-      , role:     'Panelist'
-    }
-    , {
-        name:     'Jane Leibrock'
-      , title:    'User Experience Researcher, Facebook'
-      , twitter:  'fencebreak'
-      , img_url:  'leibrock.gif'
-      , role:     'Panelist'
+        name:     'Natasha Montero'
+      , title:    'Co-Fundador, Event Radar'
+      , twitter:  'monsha'
+      , img_url:  'natasha.jpg'
+      , role:     'Panelista'
     }
   ]
 }

@@ -1,4 +1,4 @@
 module.exports = {
     database: process.env.MONGOLAB_URI
-  , server_port: '3000'
+  , server_port: '80'
 }

@@ -22,10 +22,10 @@ module.exports = {
 
   /* Application configuration */
   twitter_app: {
-      consumer_key:         'SEzfkIbgToVWN6sO932A'
-    , consumer_secret:      'Rld4AUK623NyZcibpaSV9g14pNjzXjD9RUDj0L6EnsU'
-    , access_token_key:     '464190087-bUTfa4y5VUuvGBbUVOfKnf5UJPmxWxrKitg0m1dn'
-    , access_token_secret:  'ar92SAMZ9pwnvuBRfajURFwv6ST3KlZ0ee9XoE7XE'
+      consumer_key:         'yCkPLfZNiKUVokoVrsvA'
+    , consumer_secret:      'NuGmrHQwYji7KPKAhk1XCsUgmkgXcdTs0YfXThCP8'
+    , access_token_key:     '606708565-hJJ2494BW7UeZacCqpLwThndIYVrZWN6M7MgpIUA'
+    , access_token_secret:  '4oF24TlK2TuaEjUdwvPho3CyESGhIbW6CdLKE'
   }
 /*
   , twitter_account: {

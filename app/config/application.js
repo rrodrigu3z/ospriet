@@ -22,21 +22,26 @@ module.exports = {
 
   /* Application configuration */
   twitter_app: {
-      consumer_key:         ''
-    , consumer_secret:      ''
-    , access_token_key:     ''
-    , access_token_secret:  ''
+      consumer_key:         'SEzfkIbgToVWN6sO932A'
+    , consumer_secret:      'Rld4AUK623NyZcibpaSV9g14pNjzXjD9RUDj0L6EnsU'
+    , access_token_key:     '464190087-bUTfa4y5VUuvGBbUVOfKnf5UJPmxWxrKitg0m1dn'
+    , access_token_secret:  'ar92SAMZ9pwnvuBRfajURFwv6ST3KlZ0ee9XoE7XE'
   }
-
+/*
   , twitter_account: {
-      id:           '495336570'
-    , screen_name:  'dftg'
+      id:           '464190087'
+    , screen_name:  'eventradar'
+  }
+*/
+  , twitter_account: {
+      id:           '606708565'
+    , screen_name:  'EventRadarDev'
   }
 
   , moderators: [
     {
-      id_str: '18644328'
-    , screen_name: 'philcoffman'
+      id_str: '37946833'
+    , screen_name: 'rrodrigu3z'
     }
   ]
 
@@ -49,13 +54,13 @@ module.exports = {
 
   /* Site/UI configuration */
   , site: {
-      raw_url:          'http://designfromthegut.com'
-    , display_url:      'designfromthegut.com'
-    , google_analytics: 'UA-8533626-2'
+      raw_url:          'http://y2b.eventradar.com.ve'
+    , display_url:      'y2b.eventradar.com.ve'
+    , google_analytics: ''
   }
 
   , event: {
-      title:        'Design from the Gut'
+      title:        'VenezuelaY2B'
     , description:  'Debating whether research or intuition is a better approach to design should be a communal discussion.'
     , instructions: '<strong>Submit a question or comment by posting a tweet to <a href="https://twitter.com/intent/user?screen_name=dftg" title="Design from the Gut on Twitter">@dftg</a> via the button below. Review the submissions and favorite the ones you\'d like to see answered</strong>. The moderator will choose from the top picks.'
     , time:         'Friday, 3/9, 3:30p'
@@ -65,11 +70,11 @@ module.exports = {
 
   , participants: [
     {
-        name:     'Phil Coffman'
-      , title:    'Principal, Element'
-      , twitter:  'philcoffman'
-      , img_url:  'coffman.gif'
-      , role:     'Moderator'
+        name:     'Ricardo Rodríguez'
+      , title:    'Co-Fundador, Event Radar'
+      , twitter:  'rrodrigu3z'
+      , img_url:  'http://a0.twimg.com/profile_images/2167235671/Captura_de_pantalla_2012-04-18_a_la_s__08.51.57_normal.png'
+      , role:     'Moderador'
     }
     , {
         name:     'Bill Couch'

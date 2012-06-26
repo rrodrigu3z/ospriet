@@ -18,9 +18,9 @@
     "matador": "<=0.0.14"
   },
   "domains": [
-    "designfromthegut.com"
+    "eventradar.com.ve"
   ],
-  "subdomain": "fromthegut",
+  "subdomain": "y2b",
   "scripts": {
     "start": "server.js"
   },

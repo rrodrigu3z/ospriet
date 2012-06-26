@@ -1,4 +1,4 @@
 module.exports = {
-    database: 'mongodb://'
+    database: 'mongodb://localhost/ospriet_development'
   , server_port: '3000'
 }

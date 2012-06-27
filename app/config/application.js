@@ -22,10 +22,10 @@ module.exports = {
 
   /* Application configuration */
   twitter_app: {
-      consumer_key:         'yCkPLfZNiKUVokoVrsvA'
-    , consumer_secret:      'NuGmrHQwYji7KPKAhk1XCsUgmkgXcdTs0YfXThCP8'
-    , access_token_key:     '606708565-hJJ2494BW7UeZacCqpLwThndIYVrZWN6M7MgpIUA'
-    , access_token_secret:  '4oF24TlK2TuaEjUdwvPho3CyESGhIbW6CdLKE'
+      consumer_key:         process.env.CONSUMER_KEY
+    , consumer_secret:      process.env.CONSUMER_SECRET
+    , access_token_key:     process.env.ACCESS_TOKEN_KEY
+    , access_token_secret:  process.env.ACCESS_TOKEN_SECRET
   }
 /*
   , twitter_account: {
@@ -34,8 +34,8 @@ module.exports = {
   }
 */
   , twitter_account: {
-      id:           '606708565'
-    , screen_name:  'EventRadarDev'
+      id:           '620288157'
+    , screen_name:  'askY2B'
   }
 
   , moderators: [
@@ -54,15 +54,15 @@ module.exports = {
 
   /* Site/UI configuration */
   , site: {
-      raw_url:          'http://y2bve.eventradar.com.ve'
-    , display_url:      'y2bve.eventradar.com.ve'
-    , google_analytics: ''
+      raw_url:          'http://asky2b.eventradar.com.ve'
+    , display_url:      'asky2b.eventradar.com.ve'
+    , google_analytics: 'UA-30200296-1'
   }
 
   , event: {
       title:        'VenezuelaY2B'
     , description:  'Debatiendo sobre los jóvenes y el emprendimiento en Venezuela.'
-    , instructions: '<strong>Postula tu pregunta escribiendo un tweet a <a href="https://twitter.com/intent/user?screen_name=eventradardev" title="Event Radar Dev Team">@eventradardev</a> con el botón de abajo. Revisa las propuestas y marca como favoritas las que quieras que respondan</strong>. El moderador seleccionará de las mas votadas.'
+    , instructions: '<strong>Postula tu pregunta escribiendo un tweet a <a href="https://twitter.com/intent/user?screen_name=askY2B" title="Preguntas Y2B">@askY2B</a> con el botón de abajo. Revisa las propuestas y marca como favoritas las que quieras que respondan</strong>. El moderador seleccionará de las mas votadas.'
     , time:         'Viernes, 29/6, 11:00am'
     , location:     'Universidad Metropolitana, Caracas.'
     , details_url:  'http://www.eventradar.com.ve/events/venezuelaY2B'

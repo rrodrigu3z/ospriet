@@ -60,9 +60,9 @@ module.exports = {
   }
 
   , event: {
-      title:        'VenezuelaY2B'
-    , description:  'Debatiendo sobre los jóvenes y el emprendimiento en Venezuela.'
-    , instructions: '<strong>Postula tu pregunta escribiendo un tweet a <a href="https://twitter.com/intent/user?screen_name=askY2B" title="Preguntas Y2B">@askY2B</a> con el botón de abajo. Revisa las propuestas y marca como favoritas las que quieras que respondan</strong>. El moderador seleccionará de las mas votadas.'
+      title:        'Venezuela Youth to Business Forum'
+    , description:  'Jóvenes creando, desafiando y desarrollando Negocios.'
+    , instructions: '<strong>Postula tu pregunta escribiendo un tweet a <a href="https://twitter.com/intent/user?screen_name=AskY2B" title="Preguntas Y2B">@AskY2B</a> con el botón de abajo. Revisa las propuestas y marca como favoritas las que quieras que respondan</strong>. El moderador seleccionará de las mas votadas.'
     , time:         'Viernes, 29/6, 11:00am'
     , location:     'Universidad Metropolitana, Caracas.'
     , details_url:  'http://www.eventradar.com.ve/events/venezuelaY2B'
@@ -70,17 +70,24 @@ module.exports = {
 
   , participants: [
     {
-        name:     'Ricardo Rodríguez'
-      , title:    'Co-Fundador, Event Radar'
-      , twitter:  'rrodrigu3z'
-      , img_url:  'ricardo.png'
-      , role:     'Moderador'
+        name:     'Gustavo Reyes'
+      , title:    'Wayra Venezuela'
+      , twitter:  'WayraVe'
+      , img_url:  'gustavo.png'
+      , role:     'Panelista'
     }
     , {
-        name:     'Natasha Montero'
-      , title:    'Co-Fundador, Event Radar'
-      , twitter:  'monsha'
-      , img_url:  'natasha.jpg'
+        name:     'José Sánchez'
+      , title:    'Espiñeira Pacheco y Asociados, miembro de PwC'
+      , twitter:  'PwC_Venezuela '
+      , img_url:  'jose.png'
+      , role:     'Panelista'
+    }
+    , {
+        name:     'Danhalit Zamalloa'
+      , title:    'AIESEC Venezuela'
+      , twitter:  'DanhaCcs'
+      , img_url:  'danhalit.png'
       , role:     'Panelista'
     }
   ]
